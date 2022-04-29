@@ -1,0 +1,173 @@
+
+.main_banner1_bar{
+     background-color:#006699; 
+	/*	background-color:#08a276;*/
+    left: 0;
+    right: 0;
+    padding:0px;
+    height:17px;
+    background-size:100%;
+}
+
+.main_banner2_bar{
+    background-color:#cccccc;
+    left: 0;
+    right: 0;
+    padding:0px;
+    height:10px;
+    background-size:100%;
+}
+
+body {
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0 0;
+}
+
+a {
+		text-decoration: none;
+		/* color: #08a276;*/
+		color: #006699;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1{
+		font-size: 300%;
+		align: left;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+		/* color:#999; */
+}
+h2 {
+		font-size: 150%;
+}
+h3{
+		font-size:100%;
+		font-weight:bold;
+}
+
+.venue_and_date{
+		margin: 0.75em auto;
+		color:#000;
+		font-size: 200%;
+		font-weight: bold;
+}
+
+.superset {
+		color: #555;;
+		font-size: 200%;
+		font-weight: bold;
+}
+
+
+
+section {
+		padding: 30px;
+}
+
+article {
+		padding-top:1em;
+		padding-bottom:1em;
+}
+
+.textstyle{
+
+}
+
+.organizer {
+		margin-bottom:2em;
+}
+
+
+.abstract_block {
+		width: 90%;
+		align:center;
+		margin: 1em auto;
+		padding:1em;
+		border: thin solid #cccccc;
+		border-radius: 1em;
+}
+
+.abstract_title {
+		font-weight: bold;
+		font-size: 110%;
+		margin-top:0em;
+		margin-bottom: 0.2em;
+}
+
+.abstract_author {
+		margin: 0;
+		padding: 0;
+}
+
+.abstract {
+		margin-bottom:0em;
+		/* padding-top:1em; */
+		/* padding-bottom:1em; */
+}
+
+.schedulelink {
+		align:center;
+		text-align:center;
+}
+.schedulelink a {
+		color: #006dff;
+}
+
+table.t01 a {
+		color: #006dff;
+}
+
+table.t01 {
+		border-collapse: collapse;
+		width: 90%;
+		align: center;
+		margin: 0 auto;
+}
+
+table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+table.t01 + table.t01 {
+		margin-top: 2em;
+}
+
+table.t01 td {
+		padding-top:0.3em;
+		padding-bottom:0.2em;
+		text-align: center;
+		border: none black 0px;
+}
+
+table.t01 tr:nth-child(odd) {
+		background-color: #eee;
+}
+table.t01 tr:nth-child(even) {
+		background-color:#fff;
+}
+
+table.t01 th	{
+		background-color: #8c8c8c;
+		color: white;
+		text-align: center;
+}
+
+table.t01 td.tablefoot{
+		background-color: #8c8c8c;
+		color:white;
+		text-align: center;
+		font-weight:bold;
+}
+
